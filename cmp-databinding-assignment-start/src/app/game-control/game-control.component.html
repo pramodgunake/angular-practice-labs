@@ -1,0 +1,7 @@
+<button
+class="btn btn-success"
+(click)="onGameStart()" [disabled]="counter != 0">Game Start</button>
+
+<button
+class="btn btn-danger"
+(click)="onGameEnd()" [disabled]="counter === 0">Game End</button>
